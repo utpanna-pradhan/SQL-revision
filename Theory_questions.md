@@ -59,163 +59,163 @@
 20. **What are ACID properties?**
    - Atomicity, Consistency, Isolation, Durability.
 
-What is a constraint in SQL?
+21. **What is a constraint in SQL?**
 A constraint is used to specify rules for data in a table (e.g., NOT NULL, UNIQUE, CHECK, DEFAULT, PRIMARY KEY).
 
-What is the CHECK constraint?
+22. **What is the CHECK constraint?**
 It ensures that values in a column meet a specific condition.
 
-What is the DEFAULT constraint?
+23. **What is the DEFAULT constraint?**
 It provides a default value for a column when no value is specified.
 
-What is the NOT NULL constraint?
+24. **What is the NOT NULL constraint?**
 Ensures a column cannot have a NULL value.
 
-What is the UNIQUE constraint?
+25. **What is the UNIQUE constraint?**
 Ensures all values in a column are different.
 
-What is a surrogate key?
+26. **What is a surrogate key?**
 A system-generated primary key (like an auto-incremented number) used to uniquely identify a record.
 
-What is the difference between CHAR and VARCHAR?
+27. **What is the difference between CHAR and VARCHAR?**
 CHAR is fixed-length; VARCHAR is variable-length.
 
-What is a NULL value?
+28. **What is a NULL value?**
 Represents missing or unknown data.
 
-What is a self join?
+29. **What is a self join?**
 A self join is a regular join where a table is joined with itself.
 
-What is a cross join?
+30. **What is a cross join?**
 Produces a Cartesian product of rows from two tables.
 
-What is the purpose of the COALESCE function?
+31. **What is the purpose of the COALESCE function?**
 Returns the first non-null value in a list.
 
-What is the ISNULL() function?
+32. **What is the ISNULL() function?**
 Replaces NULL with the specified replacement value.
 
-What are stored procedures?
+33. **What are stored procedures?**
 A stored procedure is a saved collection of SQL statements that can be executed repeatedly.
 
-What is a function in SQL?
+34. **What is a function in SQL?**
 A function performs a task and returns a value. It can be used in SQL expressions.
 
-What is the difference between function and procedure?
+35. **What is the difference between function and procedure?**
 A function returns a value and can be used in queries; a procedure can perform actions but may not return a value directly.
 
-What is a trigger?
+36. **What is a trigger?**
 A trigger is a set of instructions that automatically execute in response to certain events on a table.
 
-What is a cursor in SQL?
+37. **What is a cursor in SQL?**
 A cursor is used to retrieve and manipulate data row-by-row.
 
-What is the difference between static and dynamic SQL?
+38. **What is the difference between static and dynamic SQL?**
 Static SQL is compiled before execution, dynamic SQL is compiled at runtime.
 
-What is a composite key?
+39. **What is a composite key?**
 A primary key consisting of more than one column.
 
-What is the BETWEEN operator?
+40. **What is the BETWEEN operator?**
 Filters the result set within a specified range (inclusive).
 
-What is the IN operator used for?
+41. **What is the IN operator used for?**
 Checks if a value matches any value in a list or subquery.
 
-What is the LIKE operator used for?
+42. **What is the LIKE operator used for?**
 Performs pattern matching on string data.
 
-What are aggregate functions in SQL?
+43. **What are aggregate functions in SQL?**
 Functions like SUM(), AVG(), MIN(), MAX(), COUNT() that operate on sets of values.
 
-What is the LIMIT clause?
+44. **What is the LIMIT clause?**
 Restricts the number of rows returned.
 
-What is the OFFSET clause?
+45. **What is the OFFSET clause?**
 Skips a specified number of rows before beginning to return rows.
 
-What is normalization’s main goal?
+46. **What is normalization’s main goal?**
 To eliminate redundant data and ensure data dependencies make sense.
 
-What is 1NF (First Normal Form)?
+47. **What is 1NF (First Normal Form)?**
 Ensures all columns contain atomic values and each column contains only one value per row.
 
-What is 2NF (Second Normal Form)?
+48. **What is 2NF (Second Normal Form)?**
 A table is in 2NF if it is in 1NF and all non-key columns are fully functionally dependent on the primary key.
 
-What is 3NF (Third Normal Form)?
+49. **What is 3NF (Third Normal Form)?**
 A table is in 3NF if it is in 2NF and all columns are only dependent on the primary key.
 
-What is BCNF (Boyce-Codd Normal Form)?
+50. **What is BCNF (Boyce-Codd Normal Form)?**
 A stronger version of 3NF where every determinant is a candidate key.
 
-What is an alias in SQL?
+**What is an alias in SQL?**
 A temporary name given to a table or column for readability.
 
-What is a scalar function?
+**What is a scalar function?**
 Operates on a single value and returns a single value (e.g., UCASE(), LCASE()).
 
-What is a table-valued function?
+**What is a table-valued function?**
 Returns a table as output instead of a single value.
 
-What is CASE in SQL?
+**What is CASE in SQL?**
 SQL's way of handling conditional logic (similar to if-else).
 
-What is the use of the EXPLAIN keyword?
+**What is the use of the EXPLAIN keyword?**
 Provides the execution plan of a query, useful for optimization.
 
-What is the difference between INNER JOIN and OUTER JOIN?
+**What is the difference between INNER JOIN and OUTER JOIN?**
 INNER JOIN returns matched rows; OUTER JOIN returns matched and unmatched rows.
 
-What are temporary tables?
+**What are temporary tables?**
 Tables that are created and used during a session and are deleted when the session ends.
 
-What are materialized views?
+**What are materialized views?**
 Stored query results that can be refreshed periodically.
 
-What is the difference between a view and a materialized view?
+**What is the difference between a view and a materialized view?**
 A view is virtual; a materialized view is stored on disk and can improve performance.
 
-What is recursive SQL?
+**What is recursive SQL?**
 SQL that calls itself repeatedly, often used with CTEs (Common Table Expressions).
 
-What is a CTE (Common Table Expression)?
+**What is a CTE (Common Table Expression)?**
 A temporary result set used within a query.
 
-What is the ROW_NUMBER() function?
+**What is the ROW_NUMBER() function?**
 Assigns a unique row number to each row within a result set.
 
-What is PARTITION BY used for?
+**What is PARTITION BY used for?**
 Divides result sets into partitions to apply window functions.
 
-What is a window function?
+**What is a window function?**
 Performs calculations across a set of rows related to the current row.
 
-What is a transaction log?
+**What is a transaction log?**
 A record of all transactions and changes made to the database.
 
-What is savepoint in SQL?
+**What is savepoint in SQL?**
 Marks a point within a transaction to which you can later roll back.
 
-What is rollback in SQL?
+**What is rollback in SQL?**
 Undoes changes made in the current transaction.
 
-What is commit in SQL?
+**What is commit in SQL?**
 Saves all changes made in the current transaction.
 
-What is an exception in SQL?
+**What is an exception in SQL?**
 An error condition that interrupts query execution.
 
-What are system tables?
+**What are system tables?**
 Tables maintained by the database engine for internal use.
 
-What is query optimization?
+**What is query optimization?**
 Improving query performance by rewriting or restructuring queries.
 
-What is a deadlock in SQL?
+**What is a deadlock in SQL?**
 A situation where two transactions block each other by holding locks.
 
-What is data integrity?
+**What is data integrity?**
 Ensuring accuracy and consistency of data over its lifecycle.
 
 What are synonyms in SQL?
